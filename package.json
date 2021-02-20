@@ -1,0 +1,36 @@
+{
+  "name": "modmail.js",
+  "version": "latest",
+  "description": "A Simple Discord Modmail Template",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/botstudios/modmail.js.git"
+  },
+  "keywords": [
+    "modmail",
+    "discordapp",
+    "discordapi",
+    "sending",
+    "discord-sender",
+    "discord",
+    "discord.js",
+    "js"
+  ],
+  "author": "BotStudios <tojoeleeofficial@gmail.com> (https://studios.js.org)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "discord-sender": "^1.2.8",
+    "discord.js": "^12.5.1"
+  },
+  "bugs": {
+    "url": "https://github.com/botstudios/modmail.js/issues"
+  },
+  "homepage": "https://github.com/botstudios/modmail.js#readme"
+}
