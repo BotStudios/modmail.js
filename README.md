@@ -27,9 +27,10 @@ Please remove the hash after copying these codes
 ```
 const modmail = require('modmail.js') #
 
-modmail.on('BOT_TOKEN') #
-modmail.inbox('Inbox_Channel_ID') #
-modmail.prefix('BOT_PREFIX') #
+modmail.prefix('BOT_PREFIX') # must defined prefix 
+modmail.inbox('Inbox_Channel_ID') # and inbox before token
+modmail.on('BOT_TOKEN') # 
+
 ```
 #### Startup 
 Power Up The Modmail Bot
@@ -57,7 +58,7 @@ Command Breakdown
 `!` - Prefix
 `reply` - Command 
 `123456677544` - User ID
-`Hello` - message
+`Hello < 2000 Words` - message
 
 
 
@@ -78,6 +79,9 @@ Having problem ?
    Bot does not have permission to send message/react
    - User
    User does not allow private messsage from server members
+
+3. Which Permission The Bot Is Missing ?   
+   - Run `<PREFIX>check` command, A List Of Permissions That Are Require Will Be Listed
   
 
 #### Plugins 
