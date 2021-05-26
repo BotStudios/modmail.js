@@ -1,5 +1,5 @@
 'use strict';
-const path = require('./path')
-exports.on = require('./mail')
-exports.inbox = require('./lib/client/inboxMail')
-exports.prefix = require('./lib/client/prefix')
+exports.on = require('./mail.js')
+exports.inbox = require('./lib/client/inboxMail.js')
+exports.prefix = require('./lib/client/prefix.js')
+exports.perms = require('./lib/client/perms.js')
