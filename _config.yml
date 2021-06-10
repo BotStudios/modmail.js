@@ -1,6 +1,15 @@
 theme: minima
+
+title: modmail.js
+description: My very nice blog
+author: "Jorge Sanz"
+
 minima:
   skin: dark
 header_pages:
   - README.md
 show_excerpts: true
+
+rss: rss
+
+
