@@ -26,22 +26,28 @@ Modmail.js is an advance [Discord](https://discordapp.com) Modmail template.
 
 ### Install
 
-**Node.js 12.0.0 or newer is required.**
-
 `npm i modmail.js`
-
-__Note :__ We highly recommend you to update modmail.js from `v1^` to `v2^`
 
 ### Setup
 `# for compulsory / required`
 
-Please remove the hash after copying these codes
+Remove the hash after copying these codes
 ```
 const modmail = require('modmail.js') #
 
-modmail.prefix('BOT_PREFIX') # must defined prefix 
-modmail.inbox('Inbox_Channel_ID') # and inbox before token
-modmail.on('BOT_TOKEN') # 
+modmail.on({ 
+  token: 'BOT_TOKEN', #
+  inbox: 'INBOX_CHANNEL_ID', #
+  prefix: 'BOT_PREFIX', #
+  message: '@mentions/messages', 
+  inline: true, // inlineReply
+  
+  })
+  .then(r=>{
+  console.log(r)
+  }).catch(err => {
+  console.log(err)
+  })
 
 ```
 ### Startup 
@@ -97,8 +103,11 @@ Having problem ?
   
 
 ### Plugins 
+Use plugins to improve user experience
 
-`we're still working on it`
+- Reply To Reply
+
+[Docs](https://botstudios.github.io/modmail.js/plugins) 
 
 #### Links
 
