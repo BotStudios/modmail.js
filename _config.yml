@@ -1,4 +1,4 @@
-theme: jekyll-theme-minimal
+theme: minima
 minima:
   skin: dark
 header_pages:
