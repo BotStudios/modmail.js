@@ -16,8 +16,19 @@
   - [License](#license)
 -------
 
+### About 
+--------------
+Modmail.js is an advance [Discord](https://discordapp.com) Modmail template.
+
+- Performant
+- Build-in Plugins 
+- Easy To Setup 
+
 #### Install
+
+**Node.js 12.0.0 or newer is required.**
 `npm i modmail.js`
+__Note :__ We highly recommend you to update modmail.js from `v1^` to `v2^`
 
 #### Setup
 `# for compulsory / required`
