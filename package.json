@@ -26,11 +26,11 @@
   "author": "BotStudios <tojoeleeofficial@gmail.com> (https://studios.js.org)",
   "license": "Apache-2.0",
   "dependencies": {
-    "discord-sender": "^1.2.8",
-    "discord.js": "^12.5.1"
+    "discord-sender": "^1.2.9",
+    "discord.js": "^12.5.3"
   },
   "bugs": {
     "url": "https://github.com/botstudios/modmail.js/issues"
   },
-  "homepage": "https://github.com/botstudios/modmail.js#readme"
+  "homepage": "https://modmail.js.org"
 }
