@@ -50,9 +50,9 @@ modmail.on({
 
 ### Startup 
 
-Power Up The Modmail Bot
+> Getting Started With The Modmail Bot
 
-1. Replace `BOT_TOKEN` as your discord bot token, `INBOX_CHANNEL_ID` as a modmail inbox channel's id and `BOT_PREFIX` as anything you like 
+1. Replace `BOT_TOKEN` as your discord bot token, `INBOX_CHANNEL_ID` as a modmail inbox channel's id and `BOT_PREFIX` as your [bot prefix](https://botstudios.github.io/modmail.js/prefix)
 
 2. You're all set ! Now you just have to run the the bot. `e.g node index.js`, `e.g node bot.js`. 
 
@@ -60,23 +60,15 @@ Power Up The Modmail Bot
 
 1. Allow private message from server members `default:allowed`
 
-2. DM ( Direct Message ) Your Bot And It will react :green_tick: to your message
+2. DM ( Direct Message ) Your Bot And It will react ✅ to your message
 
-3. Check The Message In Modmail Inbox Channel.
+3. Check Your Inbox Channel, See If There's Anything 
 
 > To Reply A User
 
 - `<PREFIX>reply <USER_ID> <YOUR_MESSAGE`> e.g. `!reply 123456677544 Hello`
 
-Command Breakdown 
-
-`!` - Prefix
-`reply` - Command 
-`123456677544` - User ID
-`Hello < 2000 Words` - message
-
-
-
+Please Read Our [Docs](https://botstudios.github.io/modmail.js) To Learn More.
 ----
 
 ### Plugins 
