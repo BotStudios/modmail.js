@@ -1,1 +1,3 @@
 theme: minimal
+minima:
+  skin: dark
