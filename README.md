@@ -90,7 +90,7 @@ Use plugins to improve user experience
 
 #### Links
 
--[Documentation](https://botstudios.github.io/modmail.js)
+- [Documentation](https://botstudios.github.io/modmail.js)
 - [@BotStudios](https://github.com/botstudios)
   - [@joeleeofficial](https://github.com/joeleeofficial)
 - [More Projects By BotStudios](https://studios.js.org)
