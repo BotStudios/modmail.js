@@ -1,11 +1,9 @@
 <div align="center">
     <h1>Modmail.js</h1>
-    <a href="https://www.npmjs.com/package/modmail.js"><img src="https://img.shields.io/npm/v/modmail.js.svg?maxAge=3600" alt="NPM version" /></a>
+    <p> <a href="https://www.npmjs.com/package/modmail.js"><img src="https://img.shields.io/npm/v/modmail.js.svg?maxAge=3600" alt="NPM version" /></a>
     <a href="https://www.npmjs.com/package/modmail.js"><img src="https://img.shields.io/npm/dt/modmail.js.svg?maxAge=3600" alt="NPM downloads" /></a>
-    <a href="https://david-dm.org/botstudios/modmail.js"><img src="https://img.shields.io/david/botstudios/modmail.js.svg?maxAge=3600" alt="Dependencies" /></a>
-  <p>
-    <a href="https://nodei.co/npm/modmail.js/"><img src="https://nodei.co/npm/modmail.js.png?downloads=true&stars=true" alt="npm installnfo" /></a>
-  </p>
+    <a href="#"><img src="https://img.shields.io/david/botstudios/modmail.js.svg?maxAge=3600" alt="Dependencies" /></a> </p>
+  <p><a href="https://nodei.co/npm/modmail.js/"><img src="https://nodei.co/npm/modmail.js.png?downloads=true&stars=true" alt="npm installnfo" /></a></p>
 </div>
 
 ### Table Of Contents 
