@@ -50,6 +50,7 @@ modmail.on({
   })
 
 ```
+
 ### Startup 
 Power Up The Modmail Bot
 
@@ -82,32 +83,12 @@ Command Breakdown
 
 ----
 
-
-
-### Troubleshoot 
-
-Having problem ?
-
-1. Bot Not Working ?
-  ###### Missing Token, Inbox Channel ID Or Prefix
-  Make sure you have declare these three things. The Bot will not online if Token is undefined. You won't receive modmail if Inbox Channel Id Is not defined. You won't be able to reply without bot prefix.
-
-2. Didn't receive message message ?
-   - Inbox
-   Bot does not have permission to send message/react
-   - User
-   User does not allow private messsage from server members
-
-3. Which Permission The Bot Is Missing ?   
-   - Run `<PREFIX>check` command, A List Of Permissions That Are Require Will Be Listed
-  
-
 ### Plugins 
 Use plugins to improve user experience
 
-- Reply To Reply
+- [ReplyToReply](https://botstudios.github.io/modmail.js/plugins/replyToReply) 
 
-[Docs](https://botstudios.github.io/modmail.js/plugins) 
+
 
 #### Links
 
@@ -117,10 +98,6 @@ Use plugins to improve user experience
 - [Github Repo](https://github.com/botstudios/modmail.js)
 - [Self Hosting](https://github.com/botstudios/modmail)
 
-#### Hosting
-
-- [repl.it](https://repl.it) - Running But Not 100% Uptime ( With Pings )
-- [Heroku](https://heroku.com) - Must Verify Credit Card For 24/7 Uptime
 
 #### License 
 
