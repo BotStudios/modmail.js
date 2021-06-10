@@ -50,7 +50,7 @@ modmail.on({
 
 ### Startup 
 
-> Getting Started With The Modmail Bot
+__Getting Started With The Modmail Bot__
 
 1. Replace `BOT_TOKEN` as your discord bot token, `INBOX_CHANNEL_ID` as a modmail inbox channel's id and `BOT_PREFIX` as your [bot prefix](https://botstudios.github.io/modmail.js/prefix)
 
