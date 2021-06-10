@@ -1,6 +1,6 @@
 {
   "name": "modmail.js",
-  "version": "latest",
+  "version": "2.0.0",
   "description": "A Simple Discord Modmail Template",
   "main": "index.js",
   "directories": {
