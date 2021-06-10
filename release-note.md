@@ -10,5 +10,5 @@
 
 ### Documentation 
 
-We've create a [documentation](https://botstudios.github.io/modmail.js) for modmail.js users.
+We've made a [documentation](https://botstudios.github.io/modmail.js) for modmail.js users.
 
