@@ -1,5 +1,8 @@
 ## Modmail.js Release Note
 
+### Version 
+`v2,0.1`
+
 ### Changelog
 
 - Major bug fixes
