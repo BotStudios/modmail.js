@@ -4,6 +4,7 @@
  <a href="#"><img src="https://img.shields.io/david/botstudios/modmail.js.svg?maxAge=3600" alt="Dependencies" /></a> </p>
  <p align="center"><a href="https://nodei.co/npm/modmail.js/"><img src="https://nodei.co/npm/modmail.js.png?downloads=true&stars=true" alt="npm installnfo" /></a></p>
 
+
 ### Table Of Contents 
 
 - [About](#about)
@@ -12,12 +13,14 @@
     - [Startup](#startup) 
 - Additional 
   - [Docs](https://modmail.js.org)
+  - [Release Note](https://github.com/BotStudios/modmail.js/blob/v2/release-note.md)
   - [License](#license)
 -------
 
 ### About 
 
 Modmail.js is an advance [Discord](https://discordapp.com) Modmail template.
+
 
 - Performant
 - Build-in Plugins 
@@ -66,9 +69,9 @@ __Getting Started With The Modmail Bot__
 
 > To Reply A User
 
-- `<PREFIX>reply <USER_ID> <YOUR_MESSAGE`> e.g. `!reply 123456677544 Hello`
+> - `<PREFIX>reply <USER_ID> <YOUR_MESSAGE`> e.g. `!reply 123456677544 Hello`
 
-Please Read Our [Docs](https://botstudios.github.io/modmail.js) To Learn More.
+> Please Read Our [Docs](https://botstudios.github.io/modmail.js) To Learn More.
 
 ----
 
