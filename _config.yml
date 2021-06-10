@@ -1,8 +1,8 @@
 theme: minima
 
 title: modmail.js
-description: My very nice blog
-author: "Jorge Sanz"
+description: A guide made by the contributors of modmail.js for its users.
+author: "docs"
 
 minima:
   skin: dark
@@ -10,6 +10,5 @@ header_pages:
   - README.md
 show_excerpts: true
 
-rss: rss
 
 
