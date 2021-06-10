@@ -67,11 +67,11 @@ __Getting Started With The Modmail Bot__
 
 3. Check Your Inbox Channel, See If There's Anything 
 
-> To Reply A User
+**To Reply A User**
 
-> - `<PREFIX>reply <USER_ID> <YOUR_MESSAGE`> e.g. `!reply 123456677544 Hello`
+- `<PREFIX>reply <USER_ID> <YOUR_MESSAGE`> e.g. `!reply 123456677544 Hello`
 
-> Please Read Our [Docs](https://botstudios.github.io/modmail.js) To Learn More.
+ Please Read Our [Docs](https://botstudios.github.io/modmail.js) To Learn More.
 
 ----
 
