@@ -25,7 +25,7 @@ Modmail.js is an advance [Discord](https://discordapp.com) Modmail template.
 
 ### Install
 
-`npm i modmail.js`
+`npm i modmail.js@latest`
 
 ### Example Usage
 
