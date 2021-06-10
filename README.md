@@ -9,7 +9,7 @@
 - [About](#about)
 - [Install](#install)
   - [Example Usage](#example-usage)
-    - [How To Use](#how-to-use) 
+    - [Startup](#startup) 
 - Additional 
   - [Docs](https://modmail.js.org)
   - [License](#license)
@@ -52,11 +52,9 @@ modmail.on({
 
 Power Up The Modmail Bot
 
- 1. Replace `BOT_TOKEN` as your discord bot token then replace `Inbox_Channel_ID` as a channel's ID you wish to receive modmails.
+1. Replace `BOT_TOKEN` as your discord bot token, `INBOX_CHANNEL_ID` as a modmail inbox channel's id and `BOT_PREFIX` as anything you like 
 
-2. Replace `BOT_PREFIX` as anything you like.
-
-3. You're all set ! Now you just have to run the nodejs. `e.g node index.js`, `e.g node bot.js`. 
+2. You're all set ! Now you just have to run the the bot. `e.g node index.js`, `e.g node bot.js`. 
 
 #### How to use
 
