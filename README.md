@@ -1,100 +1,15 @@
-## Home
-
-### Table Of Contents 
-
-- [About](#about)
-- [Install](#install)
-  - [Setup](#setup)
-    - [How To Use](#how-to-use) 
-- Additional 
-  - [Links](#links)
-  - [Docs](https://modmail.js.org)
-  - [License](#license)
+### Introduction
 -------
-
-#### Install
-`npm i modmail.js`
-
-#### Setup
-`# for compulsory / required`
-
-Please remove the hash after copying these codes
-```
-const modmail = require('modmail.js') #
-
-modmail.prefix('BOT_PREFIX') # must defined prefix 
-modmail.inbox('Inbox_Channel_ID') # and inbox before token
-modmail.on('BOT_TOKEN') # 
-
-```
-#### Startup 
-Power Up The Modmail Bot
-
- 1. Replace `BOT_TOKEN` as your discord bot token then replace `Inbox_Channel_ID` as a channel's ID you wish to receive modmails.
-
-2. Replace `BOT_PREFIX` as anything you like.
-
-3. You're all set ! Now you just have to run the nodejs. `e.g node index.js`, `e.g node bot.js`. 
-
-#### How to use
-
-1. Allow private message from server members `default:allowed`
-
-2. DM ( Direct Message ) Your Bot And It will react :green_tick: to your message
-
-3. Check The Message In Modmail Inbox Channel.
-
-> To Reply A User
-
-- `<PREFIX>reply <USER_ID> <YOUR_MESSAGE`> e.g. `!reply 123456677544 Hello`
-
-Command Breakdown 
-
-`!` - Prefix
-`reply` - Command 
-`123456677544` - User ID
-`Hello < 2000 Words` - message
+Welcome to the modmail.js guide made by its contributors. You're probably here to learn about how to setup and use a modmail.js, and you've came to the right place.
+This guide cover everything you need to know about modmail.js. You can also try out our pure [modmail](https://github.com/botstudios/modmail).
 
 
+### Before Getting Started...
 
-----
+Here's some information you need to know about :
 
-
-
-#### Troubleshoot 
-
-Having problem ?
-
-1. Bot Not Working ?
-  ###### Missing Token, Inbox Channel ID Or Prefix
-  Make sure you have declare these three things. The Bot will not online if Token is undefined. You won't receive modmail if Inbox Channel Id Is not defined. You won't be able to reply without bot prefix.
-
-2. Didn't receive message message ?
-   - Inbox
-   Bot does not have permission to send message/react
-   - User
-   User does not allow private messsage from server members
-
-3. Which Permission The Bot Is Missing ?   
-   - Run `<PREFIX>check` command, A List Of Permissions That Are Require Will Be Listed
+  - To use this package, you should have a fairly decent grasp of JavaScript and discord.js themselves. Its going to be hard for you to troubleshoot errors if you don't.
+  - This is a `modmail.js version 2` and above guide
+  - We encourage you to use `modmail.js version 2.0.0^` and above
+  - If you have an older version of nodejs (i.e. below 12.0), you should upgrade to the latest version.
   
-
-#### Plugins 
-
-`we're still working on it`
-
-#### Links
-
-- [@BotStudios](https://github.com/botstudios)
-  - [@joeleeofficial](https://github.com/joeleeofficial)
-- [More Projects By BotStudios](https://studios.js.org)
-- [Github Repo](https://github.com/botstudios/modmail.js)
-- [Self Hosting](https://github.com/botstudios/modmail)
-
-
-
-#### License 
-
-```
-APACHE 2.0
-```
