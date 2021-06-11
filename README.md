@@ -2,7 +2,7 @@
  <p align="center"> <a href="https://www.npmjs.com/package/modmail.js"><img src="https://img.shields.io/npm/v/modmail.js.svg?maxAge=3600" alt="NPM version" /></a>
  <a href="https://www.npmjs.com/package/modmail.js"><img src="https://img.shields.io/npm/dt/modmail.js.svg?maxAge=3600" alt="NPM downloads" /></a>
  <a href="#"><img src="https://img.shields.io/david/botstudios/modmail.js.svg?maxAge=3600" alt="Dependencies" /></a> </p>
- <p align="center"><a href="https://nodei.co/npm/modmail.js/"><img src="https://nodei.co/npm/modmail.js.png?downloads=true&stars=true" alt="npm installnfo" /></a></p>
+ <p align="center"><a href="https://nodei.co/npm/modmail.js/"><img src="https://nodei.co/npm/modmail.js.png?downloads=true" alt="npm installnfo" /></a></p>
 
 
 ### Table Of Contents 
