@@ -41,4 +41,4 @@ Now you can replace `BOT_TOKEN` with your bot token, `INBOX_CHANNEL_ID` as a mod
 
 #### **2. Customize**
 
-After setting up the bot, you're ready to customize it ! So let's start with the `@mentions/messages`, ( you can replace with anything you want ) it will send that message before every mail, to notify someone. ( You can just disable it by leaving it blank )
+After setting up the bot, you're ready to customize it ! So let's start with the `@mentions/messages`, ( you can replace with anything you want ) it will send that message before every mail, to notify someone. ( You can choose it disable it by leaving it blank ).
