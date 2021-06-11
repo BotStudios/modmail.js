@@ -7,7 +7,7 @@ minima:
   skin: dark
 header_pages:
   - README.md
-show_excerpts: false
+show_excerpts: true
 
 
 
