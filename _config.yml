@@ -7,7 +7,6 @@ author: Imagine A Template
 minima:
   skin: dark
 header_pages:
-  - README.md
   - plugins.md
 show_excerpts: false
 
