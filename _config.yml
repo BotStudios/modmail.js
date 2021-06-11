@@ -8,6 +8,7 @@ minima:
   skin: dark
 header_pages:
   - README.md
+  - ./plugins/readme.md
 show_excerpts: true
 
 
