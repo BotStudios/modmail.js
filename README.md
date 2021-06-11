@@ -1,5 +1,5 @@
 ### Introduction
--------
+
 Welcome to the modmail.js guide made by its contributors. You're probably here to learn about how to setup and use a modmail.js, and you've came to the right place.
 This guide cover everything you need to know about modmail.js. You can also try out our pure [modmail](https://github.com/botstudios/modmail).
 
