@@ -2,6 +2,7 @@ theme: minima
 
 title: modmail.js
 description: A guide made by the contributors of modmail.js for its users.
+author: Imagine A Template  
 
 minima:
   skin: dark
@@ -12,5 +13,4 @@ show_excerpts: true
 
 
 plugins:
- - jekyll-feed
  - jekyll-seo-tag
