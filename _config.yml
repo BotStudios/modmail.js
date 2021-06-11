@@ -11,3 +11,6 @@ show_excerpts: false
 
 
 
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
