@@ -36,10 +36,10 @@ modmail.on({
          replyToReply
     <td>
       Plugin's ID
-
+</table>
 <table>
    <td>
          true
     <td>
       Option <boolean>
- 
+      </table>
