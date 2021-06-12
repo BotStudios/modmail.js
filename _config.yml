@@ -1,4 +1,4 @@
-theme: minimal
+theme: minima
 
 
 
@@ -7,8 +7,7 @@ description: A guide made by the contributors of modmail.js for its users.
 author: Imagine A Template  
 
 url: https://modmail.js.org
-minima:
- skin: minima-solarized-dark
+
 
  
 header_pages:
