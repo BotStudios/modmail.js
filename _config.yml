@@ -17,8 +17,5 @@ header_pages:
 
 show_excerpts: false
 
-mastodon:
-    - username: npmjs
-      instance: npmjs.com/modmail.js
-     
+
 
