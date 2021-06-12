@@ -73,7 +73,7 @@ Having Issue ? Here's some common issues :
  - The bot will react ❌ to your message if it fails to send that message to the user ( probably because that user didn't enable `allow private messsage from server members` )
  - Run `<PREFIX>check` ( i.e. `!check` ) and *A List Of Permissions That Are Required Will Be Listed*. **`The bot should return an embed`** 
    Example :
-   ```fix
+ ```fix
    Permissions Checker
 
 Check If The Bot Has The Permission That It Needs
@@ -86,8 +86,9 @@ Check If The Bot Has The Permission That It Needs
 - Send Message : true
 Check The Console For More Information
 ```
-
-Make sure everything return as `true`
+Make sure everything return as `true`. If you invited the bot with those permissions but the bot didn't have it, you'll have to give the bot a role with those permissions. Also remember to check the console, remember to `.catch()` those errors. 
+ - [Being Rate Limited](https://discord.com/developers/docs/topics/rate-limits)
+ - Try restarting the bot
  
 
 
