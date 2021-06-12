@@ -56,7 +56,38 @@ Having Issue ? Here's some common issues :
 
 #### **Bot not working...**
 
- - `Missing Token`, `Inbox Channel ID` Or `Prefix` - Check If You're Missing One Of These
- - You should get an error if something went wrong
+ - Missing `Token`, `Inbox Channel ID` Or `Prefix` - Check If You're Missing One Of These
+ - You should get an error if something went wrong `=>` Try [Google Search](https://google.com) those errors
  - Try disabling plugins
+ - Check Out [Discord.js Errors and DiscordAPIErrors](https://discordjs.guide/popular-topics/errors.html)
+
+#### **Not Receiving Inbox/Mails...**
+
+ - Make sure to only send a message after the bot went online 
+ - Check if you configure the `INBOX_CHANNEL_ID` correctly, the bot will only send mails to that specific channel you configure
+ - Bot don't have permission to send message, embed or react to messages 
+
+#### **Common Issues...**
+  
+ - Make sure you've enable `allow private messsage from server members` in user settings 
+ - The bot will react ❌ to your message if it fails to send that message to the user ( probably because that user didn't enable `allow private messsage from server members` )
+ - Run `<PREFIX>check` ( i.e. `!check` ) and *A List Of Permissions That Are Required Will Be Listed*. **`The bot should return an embed`** 
+   Example :
+   ```fix
+   Permissions Checker
+
+Check If The Bot Has The Permission That It Needs
+
+- Add Reaction : true
+- Manage Message : true
+- Embed Links : true
+- Read Message History : true
+- View Channel : true
+- Send Message : true
+Check The Console For More Information
+```
+
+Make sure everything return as `true`
+ 
+
 
