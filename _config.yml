@@ -1,4 +1,4 @@
-theme: minima-solarized-dark
+theme: minima
 
 
 title: modmail.js
@@ -7,7 +7,8 @@ author: Imagine A Template
 
 url: https://modmail.js.org
 minima:
- skin: dark
+ skin: minima-solarized-dark
+
  
 header_pages:
 - README.md
