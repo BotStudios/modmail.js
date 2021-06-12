@@ -13,7 +13,6 @@ url: https://modmail.js.org
 header_pages:
 - README.md
 - plugins.md
-- [npmjs](https://npmjs.com/modmail.js)
 
 show_excerpts: false
 
