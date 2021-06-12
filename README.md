@@ -72,10 +72,11 @@ Having Issue ? Here's some common issues :
  - Make sure you've enable `allow private messsage from server members` in user settings 
  - The bot will react ❌ to your message if it fails to send that message to the user ( probably because that user didn't enable `allow private messsage from server members` )
  - Run `<PREFIX>check` ( i.e. `!check` ) and *A List Of Permissions That Are Required Will Be Listed*. **`The bot should return an embed`** 
+
    Example :
    
  ```fix
-   Permissions Checker
+Permissions Checker
 
 Check If The Bot Has The Permission That It Needs
 
@@ -85,12 +86,36 @@ Check If The Bot Has The Permission That It Needs
 - Read Message History : true
 - View Channel : true
 - Send Message : true
+
 Check The Console For More Information
 ```
 
 Make sure everything return as `true`. If you invited the bot with those permissions but the bot didn't have it, you'll have to give the bot a role with those permissions. Also remember to check the console, remember to `.catch()` those errors. 
  - [Being Rate Limited](https://discord.com/developers/docs/topics/rate-limits)
  - Try restarting the bot
+ - Feel free to [create an issue](https://github.com/botstudios/modmail.js/issues/new) if none of them works.
+
+### **Plugins...**
+
+Plugins has its own dedicated page. [Check It Out](./plugins)
+
+### **Useful Links**
+
+- [BotStudios@Github](https://github.com/BotStudios)
+- [modmail.js@npmjs](https://npmjs.com/modmail.js)
+- [discord.js - docs](https://discord.js.org)
+- [discord.js - guide](https://discordjs.guide)
+
+### **Contributing**
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/botstudios/modmail.js
+
+
+### **License**
+
+This project is available as open source under the terms of the [**Apache License 2.0**](./LICENSE)
+
+
  
 
 
