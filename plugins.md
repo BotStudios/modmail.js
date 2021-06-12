@@ -34,7 +34,7 @@ modmail.on({
 `true` - **Option `<boolean>`**
 
 ------------------
-<div style="height:100px"> </div>
+<div style="height:30px"> </div>
 
 ### **List Of Plugins...**
 
