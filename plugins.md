@@ -31,7 +31,7 @@ modmail.on({
  ```
 #### **Breakdown :** 
 
-**replyToReply** : `Plugin`
+`replyToReply` : *Plugin*
 
-**true** : `Option <boolean>`
+`true` : *Option <boolean>*
 
