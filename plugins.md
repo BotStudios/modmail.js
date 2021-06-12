@@ -38,13 +38,13 @@ modmail.on({
     <td>
       Plugin's ID
     </td>
+</table>
 
-
+<table>
    <td>
          true
     </td>
     <td>
       Option <boolean>
     </td>
-
-  </table>   
+</table>
