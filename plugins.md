@@ -31,25 +31,19 @@ modmail.on({
  ```
 **Breakdown :** 
 
-<table >
-  <tr>
-       <td>
+   <td>
          replyToReply
     </td>
     <td>
       Plugin's ID
     </td>
 
-      </tr>
-    </table>
-<table >
-  <tr>
-       <td>
+
+   <td>
          true
     </td>
     <td>
       Option <boolean>
     </td>
 
-      </tr>
-    </table>
+     
