@@ -1,4 +1,5 @@
-theme: minima
+theme: minima-solarized-dark
+
 
 title: modmail.js
 description: A guide made by the contributors of modmail.js for its users.
@@ -15,7 +16,7 @@ header_pages:
 
 show_excerpts: false
 
-remote_theme: songzivong/dark-minima
+
 
 plugins:
   - jekyll-remote-theme
