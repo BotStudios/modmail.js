@@ -37,7 +37,7 @@ modmail.on({
 
 ### **List Of Plugins...**
 
-##### [Reply To Reply](https://modmail.js.org/plugins/replyToReply)
+##### - [Reply To Reply](https://modmail.js.org/plugins/replyToReply)
   Description: Reply To A Mail Without Having To Run `<PREFIX>reply` Command.
   
   Requirement: Discord.js Caches 
