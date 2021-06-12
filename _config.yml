@@ -12,7 +12,10 @@ header_pages:
 - README.md
 - plugins.md
 
+
 show_excerpts: false
 
+remote_theme: songzivong/dark-minima
 
-
+plugins:
+  - jekyll-remote-theme
