@@ -80,7 +80,7 @@ Make sure everything return as `true`. If you invited the bot with those permiss
 
 ### **Plugins...**
 
-Plugins has its own dedicated page. [Check It Out](./plugins)
+Plugins are really cool and has its own dedicated page. [Check It Out](./plugins)
 
 ### **Useful Links**
 
@@ -96,7 +96,7 @@ Bug reports and pull requests are welcome on [GitHub](https://github.com/botstud
 
 ### **License**
 
-This project is available as open source under the terms of the [**Apache License 2.0**](./license)
+This project is available as open source under the terms of the [**Apache License 2.0**](./project-license)
 
 
  
