@@ -91,7 +91,7 @@ Plugins has its own dedicated page. [Check It Out](./plugins)
 
 ### **Contributing**
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/botstudios/modmail.js
+Bug reports and pull requests are welcome on [GitHub](https://github.com/botstudios/modmail.js)
 
 
 ### **License**
