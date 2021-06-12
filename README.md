@@ -11,7 +11,7 @@ Here's some information you need to know about :
   - This is a `modmail.js version 2` and above guide
   - We encourage you to use `modmail.js version 2.0.0^` and above
   - If you have an older version of nodejs (i.e. below 12.0), you should upgrade to the latest version.
-  - Scroll down to the bottom if you want to go advance
+  - **Scroll down to the bottom if you want to go advance**
   
 ### **Getting Started**...
 
@@ -49,3 +49,14 @@ After setting up the bot, you're ready to customize it ! So let's start with the
 Once you setup correctly, you're ready to learn how to use it. But first, let's see if the bot is working by sending a direct message to the bot. If the message that you sent appear on your inbox channel ( its an embed, and does not look exactly the same but does include the message you've sent ), this means that you've setup correctly and everythng will work. If not, please read [Troubleshoot](#troubleshoot).
 
 Now let's reply to that message by running `<YOUR_PREFIX>reply <USER_ID> hello` ( i.e. `-reply 235088799374384325 hello` ) in your inbox channel. You should receive a `hello` message from the bot after running that command. Note: This command will only work in an inbox channel.
+
+### Troubleshoot
+
+Having Issue ? Here's some common issues :
+
+#### **Bot not working...**
+
+ - `Missing Token`, `Inbox Channel ID` Or `Prefix` - Check If You're Missing One Of These
+ - You should get an error if something went wrong
+ - Try disabling plugins
+
