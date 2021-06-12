@@ -46,4 +46,6 @@ After setting up the bot, you're ready to customize it ! So let's start with the
 
 #### **3. How To Use**
 
-Once you setup correctly, you're ready to learn how to use it. But first, let's see if the bot is working by sending a direct message to the bot. If the message that you sent appear on your inbox, is means that you've setup correctly and everythng will work. If not, please read [Troubleshoot](#troubleshoot).
+Once you setup correctly, you're ready to learn how to use it. But first, let's see if the bot is working by sending a direct message to the bot. If the message that you sent appear on your inbox channel ( its an embed, and does not look exactly the same but does include the message you've sent ), this means that you've setup correctly and everythng will work. If not, please read [Troubleshoot](#troubleshoot).
+
+Now let's reply to that message by running `<YOUR_PREFIX>reply <USER_ID> hello` ( i.e. `-reply 235088799374384325 hello` ) in your inbox channel. You should receive a `hello` message from the bot after running that command. Note: This command will only work in an inbox channel.
