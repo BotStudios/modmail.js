@@ -37,7 +37,7 @@ modmail.on({
     <td>
       Plugin's ID
 
-
+<table>
    <td>
          true
     <td>
