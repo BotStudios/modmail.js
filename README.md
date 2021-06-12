@@ -1,7 +1,7 @@
 <h1>Introduction</h1>
 
 Welcome to the modmail.js guide made by its contributors. You're probably here to learn about how to setup and use a modmail.js, and you've came to the right place.
-This guide cover everything you need to know about modmail.js. You can also try out our pure [modmail](https://github.com/botstudios/modmail)
+This guide cover everything you need to know about modmail.js. You can also try out our pure [modmail](https://github.com/botstudios/modmail). 
 
 ### **Before Getting Started**...
 
@@ -11,6 +11,7 @@ Here's some information you need to know about :
   - This is a `modmail.js version 2` and above guide
   - We encourage you to use `modmail.js version 2.0.0^` and above
   - If you have an older version of nodejs (i.e. below 12.0), you should upgrade to the latest version.
+  - Scroll down to the bottom if you want to go advance
   
 ### **Getting Started**...
 
@@ -41,4 +42,8 @@ Now you can replace `BOT_TOKEN` with your bot token, `INBOX_CHANNEL_ID` as a mod
 
 #### **2. Customize**
 
-After setting up the bot, you're ready to customize it ! So let's start with the `@mentions/messages`, ( you can replace with anything you want ) it will send that message before every mail, to notify someone. ( You can choose it disable it by leaving it blank ).
+After setting up the bot, you're ready to customize it ! So let's start with the `@mentions/messages`, ( you can replace with anything you want ) it will send that message before every mail, to notify someone. ( You can choose to disable it by leaving it blank ). Now, let's talk about [inlineReply](https://support.discord.com/hc/en-us/articles/360057382374-Replies-FAQ). Basically its just an option for you to choose, leave it as `true` if you want to enable or `false` to disable.
+
+#### **3. How To Use**
+
+Once you setup correctly, you're ready to learn how to use it. But first, let's see if the bot is working by sending a direct message to the bot. If the message that you sent appear on your inbox, is means that you've setup correctly and everythng will work. If not, please read [Troubleshoot](#troubleshoot).
