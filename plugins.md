@@ -16,7 +16,7 @@ Well, plugins actually improves user experience and make things easier. Its a sm
 
 An exmple of activating a build-in plugin :
 
-```
+```js
 const modmail = require('modmail.js') 
 
 modmail.on({ 
@@ -38,7 +38,7 @@ modmail.on({
 
 ### **List Of Plugins...**
 
-##### - [Reply To Reply](https://modmail.js.org/plugins/replyToReply)
+#### - [Reply To Reply](https://modmail.js.org/plugins/replyToReply)
   Description: Reply To A Mail Without Having To Run `<PREFIX>reply` Command.
   
   Requirement: Discord.js Caches 
