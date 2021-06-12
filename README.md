@@ -32,10 +32,10 @@ modmail.on({
   inline: true, // inlineReply
   
   })
-  .then(r=>{
-  console.log(r)
+  .then(r=>{ 
+  console.log(r) // resolve ( success )
   }).catch(err => {
-  console.log(err)
+  console.log(err) // reject ( errors )
   })
   ```
 Now you can replace `BOT_TOKEN` with your bot token, `INBOX_CHANNEL_ID` as a modmail inbox channel's id ( i.e. 815256356119682228 ) and `BOT_PREFIX` as your bot's [prefix](https://modmail.js.org/prefix). Just put `@mentions/messages` and `inlineReply` away first, we'll talk about that later. For now, type in `node your-file-name.js`, and press enter in your console. If you see the `Logged in as <Your Bot's Name>! Modmail Is Ready !` message after a few seconds, you're good to go! Read [Troubleshoot](#troubleshoot) if you don't get the exact result.
@@ -73,6 +73,7 @@ Having Issue ? Here's some common issues :
  - The bot will react ❌ to your message if it fails to send that message to the user ( probably because that user didn't enable `allow private messsage from server members` )
  - Run `<PREFIX>check` ( i.e. `!check` ) and *A List Of Permissions That Are Required Will Be Listed*. **`The bot should return an embed`** 
    Example :
+   
  ```fix
    Permissions Checker
 
@@ -86,6 +87,7 @@ Check If The Bot Has The Permission That It Needs
 - Send Message : true
 Check The Console For More Information
 ```
+
 Make sure everything return as `true`. If you invited the bot with those permissions but the bot didn't have it, you'll have to give the bot a role with those permissions. Also remember to check the console, remember to `.catch()` those errors. 
  - [Being Rate Limited](https://discord.com/developers/docs/topics/rate-limits)
  - Try restarting the bot
