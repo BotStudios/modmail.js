@@ -73,7 +73,7 @@ Having Issue ? Here's some common issues :
  - The bot will react ❌ to your message if it fails to send that message to the user ( probably because that user didn't enable `allow private messsage from server members` )
  - Run `<PREFIX>check` ( i.e. `!check` ) and *A List Of Permissions That Are Required Will Be Listed*. **`The bot should return an embed`** 
 
-Make sure everything return as `true`. If you invited the bot with those permissions but the bot didn't have it, you'll have to give the bot a role with those permissions. Also remember to check the console, remember to `.catch()` those errors. 
+Make sure everything return as `true`. If you invited the bot with those permissions but the bot didn't have it, you'll have to give the bot a role with those permissions. Also remember to check the console, use `.catch()` to catch those errors. 
  - [Being Rate Limited](https://discord.com/developers/docs/topics/rate-limits)
  - Try restarting the bot
  - Feel free to [create an issue](https://github.com/botstudios/modmail.js/issues/new) if none of them works.
@@ -96,7 +96,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/botstu
 
 ### **License**
 
-This project is available as open source under the terms of the [**Apache License 2.0**](./LICENSE)
+This project is available as open source under the terms of the [**Apache License 2.0**](./license)
 
 
  
