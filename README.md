@@ -50,7 +50,7 @@ Once you setup correctly, you're ready to learn how to use it. But first, let's 
 
 Now let's reply to that message by running `<YOUR_PREFIX>reply <USER_ID> hello` ( i.e. `-reply 235088799374384325 hello` ) in your inbox channel. You should receive a `hello` message from the bot after running that command. Note: This command will only work in an inbox channel.
 
-### Troubleshoot
+### **Troubleshoot**
 
 Having Issue ? Here's some common issues :
 
