@@ -31,6 +31,7 @@ modmail.on({
  ```
 **Breakdown :** 
 
+<table>
    <td>
          replyToReply
     </td>
@@ -46,4 +47,4 @@ modmail.on({
       Option <boolean>
     </td>
 
-     
+  </table>   
