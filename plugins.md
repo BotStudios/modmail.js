@@ -36,7 +36,7 @@ modmail.on({
          replyToReply
     <td>
       Plugin's ID
-      <div></div>
+-------      
 <table>
    <td>
          true
