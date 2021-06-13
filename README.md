@@ -94,6 +94,6 @@ Use plugins to improve user experience
 
 #### License 
 
-This project is available as open source under the terms of the [Apache License 2.0](https://github.com/botstudios/modmail.js/LICENSE)
+This project is available as open source under the terms of the [Apache License 2.0](https://github.com/BotStudios/modmail.js/blob/v2/LICENSE)
 
 
