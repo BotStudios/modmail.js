@@ -43,6 +43,10 @@ modmail.on({
   
   Requirement: Discord.js Caches 
 
+#### - [Cache](https://modmail.js.org/plugins/cache)
+  Description: Store discord.js caches
+  
+  Requirement: A Json File
 
 
 
