@@ -79,7 +79,7 @@ __Getting Started With The Modmail Bot__
 Use plugins to improve user experience
 
 - [ReplyToReply](https://botstudios.github.io/modmail.js/plugins/replyToReply) 
-
+- [Cache](https://botstudios.github.io/modmail.js/plugins/cache)
 
 
 #### Links
@@ -94,6 +94,6 @@ Use plugins to improve user experience
 
 #### License 
 
-```
-APACHE 2.0
-```
+This project is available as open source under the terms of the [Apache License 2.0](https://github.com/botstudios/modmail.js/LICENSE)
+
+
