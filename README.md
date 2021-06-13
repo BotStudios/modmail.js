@@ -11,7 +11,7 @@
 - [Install](#install)
   - [Example Usage](#example-usage)
     - [Startup](#startup) 
-- Additional 
+- **Additional** 
   - [Docs](https://modmail.js.org)
   - [Release Note](https://github.com/BotStudios/modmail.js/blob/v2/release-note.md)
   - [License](#license)
