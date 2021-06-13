@@ -1,7 +1,7 @@
 ## Modmail.js Release Note
 
 ### Version 
-`v2.0.3` (LTS)
+`v2.0.3 (LTS)`
 
 ### Changelog
 
