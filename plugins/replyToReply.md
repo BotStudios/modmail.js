@@ -20,7 +20,7 @@ Reply To Reply allows you to reply to a mail without having to run the reply com
 - **Requirements** 
  - Able To Cache Messages ( recommend using [cache plugin](./cache) )
 
- ### Guide
+### Guide
   
   1. Inline Reply To A Mail Message 
   2. Type A Message With That Inline Reply
