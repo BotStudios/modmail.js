@@ -17,3 +17,5 @@ modmail.on({
   }).catch(err => {
   console.log(err) // reject ( errors )
   })
+
+// Learn More At https://modmail.js.org
