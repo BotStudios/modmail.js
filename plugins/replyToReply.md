@@ -18,7 +18,7 @@ Reply To Reply allows you to reply to a mail without having to run the reply com
 ### Note
 
 - **Requirements** 
- - Able To Cache Messages ( recommend using [cache plugin](./cache) )
+   - Able To Cache Messages ( recommend using [cache plugin](./cache) )
 
 ### Guide
   
