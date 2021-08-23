@@ -1,11 +1,11 @@
 ## Modmail.js Release Note
 
 ### Version 
-`v3.0.0 (LTS)`
+`v3.0.2 (LTS)`
 
 ### Changelog
 
-##### **v3.0.0**
+##### **v3.0.2**
  - Upgraded To `discord.js@v13^` 
  - Extendable
  - `.inbox()` and `.prefix()` Was Deprecated 
