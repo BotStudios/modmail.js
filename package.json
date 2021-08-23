@@ -1,6 +1,6 @@
 {
   "name": "modmail.js",
-  "version": "2.0.3",
+  "version": "3.0.1",
   "description": "A Simple Discord Modmail Template",
   "main": "index.js",
   "directories": {
@@ -27,7 +27,8 @@
   "license": "Apache-2.0",
   "dependencies": {
     "discord-sender": "^1.2.9",
-    "discord.js": "^12.5.3"
+    "discord.js": "^13.1.0",
+    "npm": "^7.21.0"
   },
   "bugs": {
     "url": "https://github.com/botstudios/modmail.js/issues"
