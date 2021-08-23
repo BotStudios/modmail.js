@@ -8,7 +8,7 @@
 ##### **v2.0.2**
 - Major bug fixes
 - Added new plugin [ReplyToReply](https://botstudios.github.io/modmail.js/plugins/replytoreply)
-- Stii Supports `.inbox()` and `.preifx()` but we're planning to remove them.
+- Still Supports `.inbox()` and `.prefix()` but we're planning to remove them.
 - Added Inline Reply ( Can Choose To Enable It )
 - Updated To The Latest Dependencies
 
