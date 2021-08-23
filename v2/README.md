@@ -8,7 +8,7 @@ This guide cover everything you need to know about modmail.js. You can also try 
 Here's some information you need to know about :
 
   - To use this package, you should have a fairly decent grasp of JavaScript and discord.js themselves. Its going to be hard for you to troubleshoot errors if you don't.
-  - This is a `modmail.js version 2` and above guide
+  - This is a `modmail.js version 2` guide, browse the [latest guide](https://modmail.js.org)
   - We encourage you to use `modmail.js version 2.0.0^` and above
   - If you have an older version of nodejs (i.e. below 12.0), you should upgrade to the latest version.
   - You May Check Out [An Example Of Setting Up A Modmail.js Bot](https://github.com/BotStudios/modmail.js/tree/v2/example)
