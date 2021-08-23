@@ -12,8 +12,8 @@
   - [Example Usage](#example-usage)
     - [Startup](#startup) 
 - **Additional** 
-  - [Docs](https://modmail.js.org)
-  - [Release Note](https://github.com/BotStudios/modmail.js/blob/v3/release-note.md)
+  - [Docs - Guide](https://modmail.js.org)
+  - [Release Note](https://github.com/BotStudios/modmail.js/blob/v2/release-note.md)
   - [License](#license)
 -------
 
@@ -25,7 +25,6 @@ Modmail.js is an advance [Discord](https://discordapp.com) Modmail template.
 - Performant
 - Build-in Plugins 
 - Easy To Setup 
-- Extendable 
 
 ### Install
 
@@ -34,17 +33,18 @@ Modmail.js is an advance [Discord](https://discordapp.com) Modmail template.
 ### Example Usage
 
 ```
-const { on, Intents } = require('modmail.js') 
+const modmail = require('modmail.js') 
 
-on({ 
+modmail.on({ 
   token: 'BOT_TOKEN', 
   inbox: 'INBOX_CHANNEL_ID', 
   prefix: 'BOT_PREFIX', 
-  clientIntents: ['CLIENT_INTENTS'],
-  message: '@mentions/messages',   
+  message: '@mentions/messages', 
+  inline: true, // inlineReply
+  
   })
   .then(r=>{
-  console.log(r.plugins)
+  console.log(r)
   }).catch(err => {
   console.log(err)
   })
@@ -55,11 +55,9 @@ on({
 
 __Getting Started With The Modmail Bot__
 
-1. Replace `BOT_TOKEN` as your discord bot token, `INBOX_CHANNEL_ID` as a modmail inbox channel's id, `CLIENT_INTENTS` as Array Of [Privileged Intents Flags](https://botstudios.github.io/modmail.js/privileged-intents) and `BOT_PREFIX` as your [bot prefix](https://botstudios.github.io/modmail.js/prefix)
+1. Replace `BOT_TOKEN` as your discord bot token, `INBOX_CHANNEL_ID` as a modmail inbox channel's id and `BOT_PREFIX` as your [bot prefix](https://botstudios.github.io/modmail.js/prefix)
 
 2. You're all set ! Now you just have to run the the bot. `e.g node index.js`, `e.g node bot.js`. 
-
-> node.js@v16.6.0 and above is required for this module. [Learn More](https://modmail.js.org)
 
 #### How to use
 
@@ -82,7 +80,7 @@ Use plugins to improve user experience
 
 - [ReplyToReply](https://botstudios.github.io/modmail.js/plugins/replyToReply) 
 - [Cache](https://botstudios.github.io/modmail.js/plugins/cache)
-- [Extend](https://botstudios.github.io/modmail.js/plugins/extend)
+
 
 #### Links
 
@@ -97,3 +95,4 @@ Use plugins to improve user experience
 #### License 
 
 This project is available as open source under the terms of the [Apache License 2.0](https://github.com/BotStudios/modmail.js/blob/v2/LICENSE)
+
