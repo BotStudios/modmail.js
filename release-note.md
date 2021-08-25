@@ -1,11 +1,11 @@
 ## Modmail.js Release Note
 
 ### Version 
-`v3.0.3 (LTS)`
+`v3.0.4 (LTS)`
 
 ### Changelog
 
-##### **v3.0.3**
+##### **v3.0.4**
  - Added [MongoDb](https://modmail.js.org/plugins/MongoDB) Plugin, For Advance Users
    - Thread Channel
    - Deletable
