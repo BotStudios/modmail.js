@@ -1,9 +1,7 @@
-const { Intents, on } = require('modmail.js');
+const { Intents, Modmail } = require('modmail.js');
 
 (async () => {
-  
-  
-const mail = await modmail.on({ 
+const mail = await Modmail({ 
   token: 'BOT_TOKEN',
   inbox: 'INBOX_CHANNEL_ID',
   prefix: 'BOT_PREFIX',
@@ -12,10 +10,13 @@ const mail = await modmail.on({
   ],
   resolve: 'EVENTS',
   message: '@here',
- plugins: [{ // plugins : https://modmail.js.org/plugins
+  category: 'THREAD_CATEGORY_ID',
+  roleID: 'MODMAIL_STAFF_ID',
+  plugins: [{ // plugins : https://modmail.js.org/plugins
    cache: './FileName.json', // cache : https://modmail.js.org/plugins/cache
    replyToReply: true, // replyToReply : https://modmail.js.org/plugins/replyToReply
-   extend: true // extend : https://modmail.js.org/plugins/extend
+   extend: true, // extend : https://modmail.js.org/plugins/extend
+   mongodb: 'MONGODB://URL' // mongodb : https://modmail.js.org/plugins/mongodb
   }]
   
   });
