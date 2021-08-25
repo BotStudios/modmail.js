@@ -12,7 +12,8 @@
   - [Example Usage](#example-usage)
     - [Startup](#startup) 
 - **Additional** 
-  - [Docs](https://modmail.js.org)
+  - [Docs](https://modmail.js.org/docs)
+  - [Guide](https://modmail.js.org)
   - [Release Note](https://github.com/BotStudios/modmail.js/blob/v3/release-note.md)
   - [License](#license)
 -------
@@ -34,21 +35,22 @@ Modmail.js is an advance [Discord](https://discordapp.com) Modmail template.
 ### Example Usage
 
 ```
-const { on, Intents } = require('modmail.js') 
+const { Modmail, Intents } = require('modmail.js') 
 
-on({ 
-  token: 'BOT_TOKEN', 
-  inbox: 'INBOX_CHANNEL_ID', 
-  prefix: 'BOT_PREFIX', 
-  clientIntents: ['CLIENT_INTENTS'],
-  message: '@mentions/messages',   
-  })
-  .then(r=>{
-  console.log(r.plugins)
-  }).catch(err => {
-  console.log(err)
-  })
-
+(async () => {
+  try{
+const modmail = await Modmail({ 
+       token: 'BOT_TOKEN', 
+       inbox: 'INBOX_CHANNEL_ID', 
+       prefix: 'BOT_PREFIX', 
+       clientIntents: ['CLIENT_INTENTS'],
+       message: '@mentions/messages',   
+  });
+console.log(modmail)
+  }catch(e){
+    console.log(e)
+  }
+})() 
 ```
 
 ### Startup 
@@ -71,7 +73,7 @@ __Getting Started With The Modmail Bot__
 
 **To Reply A User**
 
-- `<PREFIX>reply <USER_ID> <YOUR_MESSAGE`> e.g. `!reply 123456677544 Hello`
+- `<PREFIX>reply <USER_ID> <YOUR_MESSAGE>` e.g. `!reply 123456677544 Hello`
 
  Please Read Our [Docs](https://botstudios.github.io/modmail.js) To Learn More.
 
@@ -83,10 +85,11 @@ Use plugins to improve user experience
 - [ReplyToReply](https://botstudios.github.io/modmail.js/plugins/replyToReply) 
 - [Cache](https://botstudios.github.io/modmail.js/plugins/cache)
 - [Extend](https://botstudios.github.io/modmail.js/plugins/extend)
+- [MongoDb](https://botstudios.github.com/modmail.js/plugins/MongoDB)
 
 #### Links
 
-- [Documentation](https://botstudios.github.io/modmail.js)
+- [Website](https://botstudios.github.io/modmail.js)
 - [@BotStudios](https://github.com/botstudios)
   - [@joeleeofficial](https://github.com/joeleeofficial)
 - [More Projects By BotStudios](https://studios.js.org)
