@@ -104,7 +104,8 @@ if(args1 == undefined || args1 == ""){
 
 client.on("messageCreate", async (message) => {
   if(message.author.bot) return;
-
+  if(obj.plugins.mongodb)return;
+  if(obj.category)return;
 if(message.channel.type == 'DM'){
     message.react('✅');
   const inbox = client.channels.cache.get(server);
