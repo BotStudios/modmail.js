@@ -1,7 +1,7 @@
 'use strict';
 // General
 const { Intents } = require('discord.js');
-exports.on = require('./mail.js');
+exports.Modmail = require('./mail.js');
 exports.version = require('./package.json').version;
 exports.Intents = Intents;
 // Plugins
