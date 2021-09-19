@@ -11,7 +11,7 @@ Here's some information you need to know about :
   - This is a `modmail.js version 3` guide
   - We encourage you to use `modmail.js version 3.0.0^` and above
   - If you have an older version of nodejs (i.e. below 12.0), you should upgrade to the latest version.
-  - You May Check Out [An Example Of Setting Up A Modmail.js Bot](https://github.com/BotStudios/modmail.js/tree/v2/example)
+  - You May Check Out [An Example Of Setting Up A Modmail.js Bot](https://github.com/BotStudios/modmail.js/tree/v3/example)
   - **Scroll down to the bottom if you want to go advance**
   
 ### **Getting Started**...
@@ -86,8 +86,9 @@ Plugins are really cool and has its own dedicated page. [Check It Out](./plugins
 ### **Useful Links**
 
 - [BotStudios@Github](https://github.com/BotStudios)
+- [modmail.js - docs](https://docs.modmail.js.org)
 - [modmail.js@npmjs](https://npmjs.com/modmail.js)
-- [Example](https://github.com/BotStudios/modmail.js/tree/v2/example)
+- [Example](https://github.com/BotStudios/modmail.js/tree/v3/example)
 - [discord.js - docs](https://discord.js.org)
 - [discord.js - guide](https://discordjs.guide)
 
