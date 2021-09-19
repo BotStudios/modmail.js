@@ -5,6 +5,10 @@
 
 ### Changelog
 
+##### **v3.0.5**
+ - Major Bug fixes
+ - Added CLI, Use `modmail.js <filename>` To Create A Modmail.js App
+ 
 ##### **v3.0.4**
  - Added [MongoDb](https://modmail.js.org/plugins/MongoDB) Plugin, For Advance Users
    - Thread Channel
@@ -32,4 +36,4 @@
 
 ### Documentation 
 
-We've made a [documentation](https://botstudios.github.io/modmail.js) for modmail.js users.
+We have a [documentation](https://botstudios.github.io/modmail.js) for modmail.js users.
