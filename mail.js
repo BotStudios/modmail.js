@@ -88,7 +88,6 @@ if(args1 == undefined || args1 == ""){
   
    }catch(e){
       message.react('❌');
-    reply(e)
    }
   }}
     }else {
@@ -123,7 +122,7 @@ if(message.author.id == `${client.user.id}`){
 }
     if (message.attachments.size > 0) {
 
-  embed.setImage(`${message.attachments.array()[0].url || ""}`)
+  embed.setImage(`${message.attachments.first().url || ""}`)
     }
    if(obj.message){
      inbox.send({content: `${obj.message || "\n"}`, embeds: [embed]}).catch(console.log)
