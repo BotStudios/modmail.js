@@ -14,7 +14,7 @@ social_links:
 header_pages:
 - README.md
 - plugins.md
-
+- docs.html
 show_excerpts: false
 
 
