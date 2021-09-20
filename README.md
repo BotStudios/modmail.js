@@ -58,7 +58,7 @@ Having Issue ? Here's some common issues :
 #### **Bot not working...**
 
  - Missing `Token`, `Inbox Channel ID` Or `Prefix` - Check If You're Missing One Of These
- - You should get an error if something went wrong `=>` Try [Google Search](https://google.com) those errors
+ - You should get an error if something went wrong `=>` Try [Google Searching](https://google.com) those errors
  - Try disabling plugins
  - Check Out [Discord.js Errors and DiscordAPIErrors](https://discordjs.guide/popular-topics/errors.html)
 
@@ -67,6 +67,7 @@ Having Issue ? Here's some common issues :
  - Make sure to only send a message after the bot went online 
  - Check if you configure the `INBOX_CHANNEL_ID` correctly, the bot will only send mails to that specific channel you configure
  - Bot don't have permission to send message, embed or react to messages 
+ - Check the console, see if there's any error. Try searching for those errors on [Google](https://www.google.com).
 
 #### **Common Issues...**
   
@@ -78,6 +79,7 @@ Make sure everything return as `true`. If you invited the bot with those permiss
  - [Being Rate Limited](https://discord.com/developers/docs/topics/rate-limits)
  - Try restarting the bot
  - Feel free to [create an issue](https://github.com/botstudios/modmail.js/issues/new) if none of them works.
+ - You can also get support [here](https://discord.gg/s56rMHNwhC)
 
 ### **Plugins...**
 
@@ -89,6 +91,7 @@ Plugins are really cool and has its own dedicated page. [Check It Out](./plugins
 - [modmail.js - docs](https://docs.modmail.js.org)
 - [modmail.js@npmjs](https://npmjs.com/modmail.js)
 - [Example](https://github.com/BotStudios/modmail.js/tree/v3/example)
+- [Bot Studios - Discord](https://discord.gg/s56rMHNwhC)
 - [discord.js - docs](https://discord.js.org)
 - [discord.js - guide](https://discordjs.guide)
 
