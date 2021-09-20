@@ -2,14 +2,14 @@
 
 ### **About Plugins**
 
-plugins actually improves user experience and make things easier. Its a small separate build-in script that can be execute whenever you want. Some plugins may require extra stuff so make sure you're ready for that.
+Plugins can improves user experience and make things easier. Its a small separate build-in scripts that can be execute whenever you want. Some plugins may require extra stuff so make sure you're ready for that.
 
 
 ### **Before Getting Started...**
 
 - You're now in an advance mode
 - Things may be more complicated
-- There's no step-by-step guide in this page
+- You should be using the latest modmail.js in order to have the best user experience
 
 
 ### **Execute Plugins**...
@@ -17,9 +17,9 @@ plugins actually improves user experience and make things easier. Its a small se
 An exmple of activating a build-in plugin :
 
 ```js
-const modmail = require('modmail.js') 
+const { Modmail } = require('modmail.js') 
 
-modmail.on({ 
+Modmail({ 
   ...
   plugins: [{
      replyToReply: true,
@@ -27,26 +27,26 @@ modmail.on({
   
   })
  ```
-#### **Breakdown :** 
-
-`replyToReply` - **Plugin `<Object>`**
-
-`true` - **Option `<boolean>`**
-
-------------------
+For more information, read the [docs](https://docs.modmail.js.org/plugin)
 <div style="height:30px"> </div>
 
 ### **List Of Plugins...**
 
 #### - [Reply To Reply](https://modmail.js.org/plugins/replyToReply)
   Description: Reply To A Mail Without Having To Run `<PREFIX>reply` Command.
-  
-  Requirement: Discord.js Caches 
+  Version: `^3.0.5` ( Stable )
+  Requirement: Discord.js Caches / [Modmail.js Cache](https://modmail.js.org/plugins/cache)
 
 #### - [Cache](https://modmail.js.org/plugins/cache)
   Description: Store discord.js caches
-  
+  Version: `^3.0.0` ( Stable )
   Requirement: A Json File
+  
+#### - [Extend](https://modmail.js.org/plugins/extend)
+  Description: Expand the bot
+  Version: `^3.0.0` ( Stable )
+  
+  
 
 
 
