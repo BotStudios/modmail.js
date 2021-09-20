@@ -44,7 +44,11 @@ For more information, read the [docs](https://docs.modmail.js.org/plugin)
   
 #### - [Extend](https://modmail.js.org/plugins/extend)
   Expand the bot
+
+#### - [MongoDb](https://modmail.js.org/plugins/mongodb)
+  Bring the modmail.js to the next level with the help of [MongoDb](https://mongodb.com)
   
+  Requirement: A [Mongodb](https://mongodb.com) database.
   
   
 
