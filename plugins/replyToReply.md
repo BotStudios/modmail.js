@@ -7,7 +7,7 @@ Reply To Reply allows you to reply to a mail without having to run the reply com
 ### Usage 
 
 ```js
-.on({ 
+Modmail({ 
   ...
   plugins: [{
      replyToReply: true,
