@@ -30,7 +30,7 @@ Here's A List Of Commands That Will Be Added If This Plugin Was Enabled
 * <PREFIX>delete - Delete/Close A Threat Channel
 ```
 
-The Bot Will Create A New Channel In The Modmail Category Everytime A User Messages The Bot, And That Channel Can Only Be Used To Interact With The User. Use `<PREFIX>delete` When You Feel Like Its Time To Close The Threat.
+The Bot Will Create A New Channel In The Modmail Category Everytime A User Messages The Bot, And That Channel Can Only Be Used To Interact With The User. Modmail Staff Can Reply To The User In The Threat Channel Without Having To Run The Reply Command. Use `<PREFIX>delete` When You Feel Like Its Time To Close The Threat.
 
 ### Note
 
