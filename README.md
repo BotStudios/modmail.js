@@ -43,7 +43,8 @@ Now you can replace `BOT_TOKEN` with your bot token, `INBOX_CHANNEL_ID` as a mod
 
 #### **2. Customize**
 
-After setting up the bot, you're ready to customize it ! So let's start with the `@mentions/messages`, ( you can replace with anything you want ) it will send that message before every mail, to notify someone by pingging them ( i.e. `<@12345678904312>` ). ( You can choose to disable it by leaving it blank ). Now, let's talk about [clientIntents](https://discordjs.guide/popular-topics/intents.html#gateway-intents). Basically you don't have to worry much about this if you're not [extending](https://modmail.js.org/plugins/extend) the bot, `[ Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES, Intents.FLAGS.GUILD_MESSAGE_REACTIONS, Intents.FLAGS.DIRECT_MESSAGES ]` 
+After setting up the bot, you're ready to customize it ! So let's start with the `@mentions/messages`, ( you can replace with anything you want ) it will send that message before every mail, to notify someone by pingging them ( i.e. `<@12345678904312>` ). ( You can choose to disable it by leaving it blank ). Now, let's talk about [clientIntents](https://discordjs.guide/popular-topics/intents.html#gateway-intents). Basically you don't have to worry much about this if you're not [extending](https://modmail.js.org/plugins/extend) the bot. This package/bot should have ( at least ) these intents : ```js
+[Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES, Intents.FLAGS.GUILD_MESSAGE_REACTIONS, Intents.FLAGS.DIRECT_MESSAGES]``` 
 
 #### **3. How To Use**
 
