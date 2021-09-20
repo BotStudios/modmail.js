@@ -1,8 +1,8 @@
 ## Plugins
 
-### **Why Do You Need Plugins** ?
+### **About Plugins**
 
-Well, plugins actually improves user experience and make things easier. Its a small separate build-in script that can be execute whenever you want. Some plugins may require extra stuff so make sure you're ready for that.
+plugins actually improves user experience and make things easier. Its a small separate build-in script that can be execute whenever you want. Some plugins may require extra stuff so make sure you're ready for that.
 
 
 ### **Before Getting Started...**
