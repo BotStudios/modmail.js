@@ -34,16 +34,21 @@ For more information, read the [docs](https://docs.modmail.js.org/plugin)
 
 #### - [Reply To Reply](https://modmail.js.org/plugins/replyToReply)
   Description: Reply To A Mail Without Having To Run `<PREFIX>reply` Command.
+  
   Version: `^3.0.5` ( Stable )
+  
   Requirement: Discord.js Caches / [Modmail.js Cache](https://modmail.js.org/plugins/cache)
 
 #### - [Cache](https://modmail.js.org/plugins/cache)
   Description: Store discord.js caches
+  
   Version: `^3.0.0` ( Stable )
+  
   Requirement: A Json File
   
 #### - [Extend](https://modmail.js.org/plugins/extend)
   Description: Expand the bot
+  
   Version: `^3.0.0` ( Stable )
   
   
