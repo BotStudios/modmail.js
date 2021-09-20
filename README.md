@@ -78,8 +78,7 @@ Having Issue ? Here's some common issues :
 Make sure everything return as `true`. If you invited the bot with those permissions but the bot didn't have it, you'll have to give the bot a role with those permissions. Also remember to check the console, use `.catch()` to catch those errors. 
  - [Being Rate Limited](https://discord.com/developers/docs/topics/rate-limits)
  - Try restarting the bot
- - Feel free to [create an issue](https://github.com/botstudios/modmail.js/issues/new) if none of them works.
- - You can also get support [here](https://discord.gg/s56rMHNwhC)
+ - Feel free to [create an issue](https://github.com/botstudios/modmail.js/issues/new) if none of them works. You can also get support [here](https://discord.gg/s56rMHNwhC)
 
 ### **Plugins...**
 
