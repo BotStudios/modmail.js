@@ -1,7 +1,7 @@
 <h2>Plugin : MongoDb</h2>
 
 ### About
-Bring the modmail bot to the next level with the help of [MongoDb](https://mongodb.com).
+Bring the modmail bot to the next level with the help of [mongoose](https://npmjs.com/mongoose) using [MongoDb](https://mongodb.com).
 
 ### Usage
  
