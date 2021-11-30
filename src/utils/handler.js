@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-module.exports = (obj, message, client) => {
+module.exports =  async (message, client, Discord, obj, model, collection) => {
 var img;
 if(message.channel.type == 'DM'){
     message.react('✅');
