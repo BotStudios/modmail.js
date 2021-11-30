@@ -19,9 +19,9 @@ client.once('ready', async () => {
 client.on('messageCreate', async (message) => {
    if(message.author.bot)return;
    try {
-     await (require('./utils/handler.js'))(message, client, Discord, model, collection);
-     await (require('./utils/reply.js'))(message, client, Discord, model, collection);
-     await (require('./utils/delete.js'))(message, client, Discord, model, collection);
+     await (require('./utils/handler.js'))(message, client, Discord, obj, model, collection);
+     await (require('./utils/reply.js'))(message, client, Discord, obj, model, collection);
+     await (require('./utils/delete.js'))(message, client, Discord, obj, model, collection);
    }catch(e) {
      console.log(e);
      message.reply({
