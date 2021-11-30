@@ -1,4 +1,4 @@
-module.exports = (obj) => {
+module.exports = async (message, client, Discord, obj, model, collection) => {
   
   if(message.channel.type == 'DM')return;
  if(!message.member.roles.cache.some(role => role.id === obj.roleID))return
