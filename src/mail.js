@@ -13,7 +13,26 @@ client.once('ready', async () => {
                 collection.set(x.User, x);
             });
   });
-})
+});
+  
+  
+client.on('messageCreate', async (message) => {
+   if(message.author.bot)return;
+   try {
+     await (require('./utils/handler.js'))(message, client, Discord, model, collection);
+     await (require('./utils/reply.js'))(message, client, Discord, model, collection);
+     await (require('./utils/delete.js'))(message, client, Discord, model, collection);
+   }catch(e) {
+     console.log(e);
+     message.reply({
+       embeds: [
+         {
+            description: 'Something Went Wrong'
+         }
+        ]
+     });
+   }
+});
 
 }
 
