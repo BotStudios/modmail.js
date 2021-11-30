@@ -5,6 +5,16 @@
 
 ### Changelog
 
+
+##### **Dev Build - Ongoing**
+ - Requires a Database
+ - Requires a Separate Category Dedicated For Modmail Threads
+ - Permissions Required :
+     - MANAGE_CHANNELS
+     - ADD_REACTIONS
+     - SEND_MESSAGE
+     - READ_MESSAGE_HISTORY
+
 ##### **v3.0.5**
  - Major Bug fixes
  - Added CLI, Use `modmail.js <filename>` To Create A Modmail.js App
