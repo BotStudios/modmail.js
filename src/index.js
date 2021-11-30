@@ -1,14 +1,6 @@
 'use strict';
-// General
-const { Intents } = require('discord.js');
 exports.Modmail = require('./mail.js');
 exports.version = require('./package.json').version;
-exports.Intents = Intents;
-// Plugins
-exports.replyToReply = require('./lib/plugins/reply.js')
-
-
-
 
 /*
                                 Apache License
