@@ -2,13 +2,13 @@
   "name": "modmail.js",
   "version": "4.0.0-dev",
   "description": "A Simple Discord Modmail Template",
-  "main": "index.js",
+  "main": "src/index.js",
   "directories": {
-    "lib": "lib",
+    "src": "scr",
     "example": "example"
   },
   "bin": {
-    "modmail.js": "./lib/cli.js"
+    "modmail.js": "./src/cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
