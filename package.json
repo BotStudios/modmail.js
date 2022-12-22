@@ -1,11 +1,10 @@
 {
   "name": "modmail.js",
-  "version": "3.0.5",
+  "version": "4.0.0",
   "description": "A Simple Discord Modmail Template",
   "main": "index.js",
   "directories": {
-    "lib": "lib",
-    "example": "example"
+    "lib": "lib"
   },
   "bin": {
     "modmail.js": "./lib/cli.js"
@@ -31,9 +30,6 @@
   "author": "BotStudios <tojoeleeofficial@gmail.com> (https://studios.js.org)",
   "license": "Apache-2.0",
   "dependencies": {
-    "discord-sender": "^1.2.9",
-    "discord.js": "^13.1.0",
-    "mongoose": "^6.0.0",
     "node-fetch": "^2.6.2"
   },
   "bugs": {
