@@ -1,39 +1,30 @@
 {
   "name": "modmail.js",
   "version": "4.0.0",
-  "description": "A Simple Discord Modmail Template",
-  "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
+  "description": "The modmailbot management CLI tool",
+  "main": "lib/index.js",
   "bin": {
-    "modmail.js": "./lib/cli.js"
+    "modmail": "lib/index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node lib/index.js"
   },
+  "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/botstudios/modmail.js.git"
+    "url": "git+https://github.com/BotStudios/modmail.js.git"
   },
   "keywords": [
-    "modmail",
-    "discordapp",
-    "discordapi",
-    "sending",
-    "discord-sender",
-    "discord",
-    "discord.js",
-    "js",
-    "cli"
+    "modmailbot"
   ],
-  "author": "BotStudios <tojoeleeofficial@gmail.com> (https://studios.js.org)",
+  "author": "Lee Chee Yong (tojoeleeofficial@gmail.com)",
   "license": "Apache-2.0",
-  "dependencies": {
-    "node-fetch": "^2.6.2"
-  },
   "bugs": {
-    "url": "https://github.com/botstudios/modmail.js/issues"
+    "url": "https://github.com/BotStudios/modmail.js/issues"
   },
-  "homepage": "https://modmail.js.org"
+  "homepage": "https://github.com/BotStudios/modmail.js#readme",
+  "dependencies": {
+    "minimist": "^1.2.7",
+    "node-fetch": "^3.3.0"
+  }
 }
